@@ -30,6 +30,9 @@ gem "stimulus-rails"
 # Use Simple Form
 gem "simple_form", github: "heartcombo/simple_form"
 
+# Use Faker for seed
+gem "faker"
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
