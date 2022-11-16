@@ -14,7 +14,8 @@ puts 'Creating restaurants'
   restaurant = Restaurant.create(
     name: Faker::Restaurant.name,
     address: Faker::Address.street_address,
-    rating: rand(1..5)
+    rating: rand(1..5),
+    chef_name: ['Helena Rizzo', 'Henrique Fogaça', 'Érick Jacquin', 'Paola Carosella'].sample
   )
   puts "Restaurant with id: #{restaurant.id} has been created"
 end
